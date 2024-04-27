@@ -47,3 +47,7 @@ nav {
 .break-point {
     background: linear-gradient(to right, red, orange);
 }
+
+.test {
+    color: 'white'
+}
