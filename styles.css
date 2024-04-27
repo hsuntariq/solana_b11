@@ -1,0 +1,49 @@
+body {
+    background-color: #121212;
+    overflow-x: hidden;
+}
+
+
+
+
+
+a {
+    color: lightgray !important;
+    font-weight: 600 !important;
+}
+
+span {
+    cursor: pointer !important;
+}
+
+
+nav {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+
+.img1,
+.img2 {
+    position: absolute;
+    z-index: -1;
+}
+
+.img1 {
+    right: -50%;
+    top: -0%;
+}
+
+.img2 {
+    width: 65% !important;
+    left: -30%;
+    top: -10%;
+}
+
+
+.btns button:nth-child(1) {
+    background: linear-gradient(to left, rgb(165, 47, 165), purple);
+}
+
+.break-point {
+    background: linear-gradient(to right, red, orange);
+}
