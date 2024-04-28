@@ -48,6 +48,53 @@ nav {
     background: linear-gradient(to right, red, orange);
 }
 
-.test {
-    color: 'white'
+::selection {
+    background-color: #00FFBD;
+}
+
+.gradient-text h1:nth-child(1) {
+    background: linear-gradient(to right, rgb(220, 125, 220), purple);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 350;
+    font-size: 7rem;
+}
+
+.gradient-text h1:nth-child(5) {
+    background: linear-gradient(to right, rgb(157, 226, 157), green);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 350;
+    font-size: 7rem;
+}
+
+.gradient-text h1:nth-child(3) {
+    background: linear-gradient(to right, rgb(120, 120, 249), blue);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: 350;
+    font-size: 7rem;
+}
+
+.lines {
+    top: 0
+}
+
+.bg {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.9)),
+        url('https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff6af6a440836404080a1919059090128&w=2048&q=75');
+    padding: 4rem;
+    background-position: center center;
+    object-fit: contain;
+    z-index: 33333;
+}
+
+.bg:hover {
+    background-image: linear-gradient(rgba(120, 220, 120, 0.2), rgba(110, 10, 210, 0.9)),
+        url('https://solana.com/_next/image?url=https%3A%2F%2Fcdn.builder.io%2Fapi%2Fv1%2Fimage%2Fassets%252Fce0c7323a97a4d91bd0baa7490ec9139%252Ff6af6a440836404080a1919059090128&w=2048&q=75');
+
+}
+
+.btn-purple {
+    background: linear-gradient(to right, rgb(229, 128, 229), purple);
 }
